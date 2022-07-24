@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 import socket
 
 s = socket.socket()
+=======
+s = socket.socket(s = socket.socket(AF_INET, SOCK_STREAM, 0))
+>>>>>>> 61fe425 (latest)
 
 port = 8888
 
@@ -13,3 +17,7 @@ s.send(b'Hi, saya client. Terima Kasih!');
 print (data)
 
 s.close()
+<<<<<<< HEAD
+=======
+
+>>>>>>> 61fe425 (latest)
